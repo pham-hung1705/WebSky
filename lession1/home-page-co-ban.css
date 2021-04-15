@@ -1,0 +1,60 @@
+body{
+    font-family: 'Lora',sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+
+.home{
+    position: relative;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("Materials/backgroug-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.home__header{
+    padding: 20px;
+}
+.logo{
+    float: left;
+    font-size: 40px;
+
+}
+.container{
+    position:relative;
+}
+.container  li{
+    display: inline-block;
+    margin: 15px;
+}
+.container ul{
+    position: absolute;
+    top:50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding-right: inherit;
+}
+.take{
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+.home__header .take a:hover{
+    transition: 0.7s;
+    color: #000000;
+    background: #FEF7F7;
+
+}
+.home__content{
+    text-align: center;
+    position:relative;
+}
+.home__content p{
+    position:inherit;
+    padding-right: inherit;
+}
