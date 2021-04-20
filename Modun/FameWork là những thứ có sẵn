@@ -1,0 +1,38 @@
+FameWork là những thứ có sẵn 
+CMS 
+bài 2 
+h4 16px tiêu chuuẩn 
+- bookmark <a href="#_ " >        link đến 1 id cần gọi nó sẽ bắt đầu chuyển đến phần đó 
+- css manh: inline csss, internal css, xternal css.
+chèn importain khi 2 css lồng nhau.
+- id luôn có nghĩa, khai báo 1 id duy nhất, 1 bài luôn có 1 id duy nhất.
+HTML 
+actions = đó là 1 url để trang đó xử lí 
+method = ....
+radio đặt chung name 
+
+- thẻ  video control là cái thanh trượt 
+- trong thẻ video đó có source nhiều link để khi không chạy được ns chạy còn lại 
+#include <iostream> 
+#include <iomanip>
+using namespace std;
+ 
+int main() {
+   int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};wđ p
+   int i, total = 0;
+   // tinh do dai cua mang
+   int size = sizeof arr / sizeof arr[0];
+     
+   printf("In tat ca phan tu cua mang: \n");
+   for(i = 0; i < size; i++) {
+       printf("%d ", arr[i]);
+    }
+     
+   // tinh tong cac phan tu cua mang
+   for(i = 0; i < size; i++) {
+      total = total + arr[i];
+    }
+     
+   printf("\nGia tri trung binh cua mang la: %f", (float) total / size);
+   return 0;
+}
