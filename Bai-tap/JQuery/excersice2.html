@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script text="jvascript" src="jquery.js"></script>
+</head>
+
+<body>
+    <script text="javascript">
+        $(document).ready(function() {
+            $("#check").click(function() {
+                var x = $("#a").val();
+                var le;
+                var chan;
+                var y = Number.isNaN(x);
+                if (y == true) {
+                    alert("Mời bạn nhập từ 1 đến -10");
+                } else {
+
+                    for (var i = 1; i <= x; i = i + 2) {
+                        if (i % 2 == 0) {
+                            document.write(i);
+                            // $("#sole").html(i);document.write("<br>")
+                        }
+
+                        if (i % 2 == 1) document.writeln(i);
+
+                    };
+                }
+
+            });
+        });
+    </script>
+    <form>
+        <h1>Số chẵn lẻ </h1>
+        <p> Nhập số a</p>
+        <input type="text" id="a" required>
+        <br>
+        <br>
+        <input type="submit" id="check" value="Check">
+        <br>
+    </form>
+    <p> Các số chẵn từ 1 đến 10 là:<b id="sochan"></b> </p>
+    <p> Các số lẻ từ 1 đến 10 là:<b id="sole"></b> </p>
+</body>
+
+</html>
