@@ -1,0 +1,27 @@
+Inline stylessheet  ưu tiên hơn 
+id 
+
+relative absolute 
+text justifile
+font-wieght: 100-600 in thường và nhạt, 500-600 chỉ chạy trên trình duyệt khi xuất ra thì ns ko in đậm. nên chọn từ 800-900
+Positions:
+fixed: giữ nguyên trên màn hình
+relative: 
+
+absolute : định vị tuyệt đối, cần có right left top cố định 
+
+màu 
+opaticy: độ trong suốt. 
+linear gradient: biến thể màu sắc. 
+direction: đổ màu từ đâu
+
+đổ bóng : 
+text-shadow đổ bóng cho màu 
+x1: ngang
+x2: dọc
+
+xử lí chữ khi tràn ra khỏi box
+word-wrap tràn chữ 
+
+Biến Đổi :
+animations : chuyển động 
