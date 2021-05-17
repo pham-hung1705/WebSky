@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+</head>
+
+<body>
+
+    <?php
+    $a = $_POST['NumberA'];
+    $b = $_POST['NumberB'];
+    $c=0;
+    if($a==$a){
+        $c = ($a+$b)*3;
+        return c;
+    }
+    else {
+        $c=$a+$b;
+    }
+    echo c;
+      ?>
+        <form action="" method="POST"></form>
+        <p>Nhap a:</p>
+        <input type="text" id="NumberA" name="NumberA">
+        <br>
+        <p>Nhap b:</p>
+        <input type="text" id="NumberB" name="NumberB">
+        <br>
+        <button type="button" name="BtnCheck" id="BtnCheck">Tinh</button>
+
+</body>
+
+</html>
